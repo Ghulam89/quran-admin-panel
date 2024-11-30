@@ -4,6 +4,7 @@ import { Base_url } from "../../utils/Base_url";
 import axios from "axios";
 import Button from "../../components/Button";
 import AddCources from "./AddCources";
+import { Link } from "react-router-dom";
 const Cources = () => {
   const [rooms, setRooms] = useState([]);
   const [category, setCategory] = useState([]);
@@ -103,7 +104,7 @@ const Cources = () => {
       
       <section>
         <div className=" grid grid-cols-1 mt-4 gap-6">
-            <div className=" bg-white flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
+            <Link to={'/cources-details'} className=" bg-white flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
               <div className=" md:w-3/12 w-12/12">
                 <img src={require('../../assets/image/cource1.png')} className=" w-full" alt="" />
               </div>
@@ -133,10 +134,10 @@ const Cources = () => {
                 <p>121 Students</p>
               </div>
               </div>
-            </div>
+            </Link>
 
 
-            <div className=" bg-white flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
+            <Link to={'/cources-details'} className=" bg-white flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
               <div className=" md:w-3/12 w-12/12">
                 <img src={require('../../assets/image/cource1.png')} className=" w-full" alt="" />
               </div>
@@ -166,7 +167,7 @@ const Cources = () => {
                 <p>121 Students</p>
               </div>
               </div>
-            </div>
+            </Link>
 
             
         </div>

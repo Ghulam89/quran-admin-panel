@@ -87,7 +87,10 @@ const AddCources = ({ isModalOpen, setIsModalOpen, closeModal, setUsers }) => {
                   </select>
                 </div>
 
-              
+                <div className=" w-[100%]">
+                  <label>Description</label>
+                  <textarea rows={6} className=" w-full bg-lightGray"></textarea>
+                </div>
 
 
                 <div

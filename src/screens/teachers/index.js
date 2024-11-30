@@ -143,7 +143,7 @@ const Teachers = () => {
                     
                           <tr className="bg-white    border-b-8  border-white rounded-md ">
                             
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white   text-sm font-normal px-6 py-4 whitespace-nowrap  text-center">
+                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white   text-sm font-normal px-6 py-3 whitespace-nowrap  text-center">
                               <span className=" bg-white text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
                                 1
                               </span>

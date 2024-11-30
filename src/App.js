@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Cources from "./screens/Cources";
 import Teachers from "./screens/teachers";
+import CourcesDetails from "./screens/Cources/CourcesDetails";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         {/* <Route element={<PrivateRoute />}> */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/cources" element={<Cources />} />
+        <Route path="/cources-details" element={<CourcesDetails />} />
         <Route path="/teachers" element={<Teachers />} />
 
         {/* </Route> */}
