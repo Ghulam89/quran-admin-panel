@@ -9,7 +9,7 @@ const  Button = ({
     onClick
 }) => {
   return (
-    <button onClick={onClick} type={type} className={` text-white bg-[#19173E] px-5 py-2.5 text-center   rounded-lg  font-medium ${className}`} disabled={disabled}> {IconLeft} {label}</button>
+    <button onClick={onClick} type={type} className={` bg-[#19173E] px-5 py-2.5 text-center flex gap-3  justify-center   rounded-lg  font-medium ${className}`} disabled={disabled}> {IconLeft} {label}</button>
   )
 }
 

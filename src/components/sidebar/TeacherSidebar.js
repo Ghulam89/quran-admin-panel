@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import Button from "../Button";
-const Sidebar = ({ side, closeSidebar }) => {
+const TeacherSidebar = ({ side, closeSidebar }) => {
   const location = useLocation();
   const isActive = (route) => location.pathname.includes(route);
 
@@ -94,7 +94,7 @@ const Sidebar = ({ side, closeSidebar }) => {
               </svg>
 
               <Link to="/teachers" className="text-lg capitalize">
-                Teachers
+                Attendance
               </Link>
             </li>
           </ul>
@@ -113,4 +113,4 @@ const Sidebar = ({ side, closeSidebar }) => {
     </div>
   );
 };
-export default Sidebar;
+export default TeacherSidebar;
