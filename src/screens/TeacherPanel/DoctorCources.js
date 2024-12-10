@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import DoctorWrapper from "../DoctorWrapper";
+import DoctorWrapper from "../TeacherWrapper";
 const DoctorCources = () => {
  
   const [open,setOpen] = useState(false);
@@ -67,7 +67,7 @@ const DoctorCources = () => {
         <div className=" grid grid-cols-2 mt-4 gap-6">
            
 
-            <Link to={'/my-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
+            <Link to={'/teacher-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
               <div className=" w-20 h-20 rounded-lg overflow-hidden">
                 <img src={require('../../assets/image/cource1.png')} className=" w-full" alt="" />
               </div>
@@ -91,7 +91,7 @@ const DoctorCources = () => {
            
               </div>
             </Link>
-            <Link to={'/my-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
+            <Link to={'/teacher-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
               <div className=" w-20 h-20 rounded-lg overflow-hidden">
                 <img src={require('../../assets/image/cource1.png')} className=" w-full" alt="" />
               </div>
@@ -115,7 +115,7 @@ const DoctorCources = () => {
            
               </div>
             </Link>
-            <Link to={'/my-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
+            <Link to={'/teacher-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
               <div className=" w-20 h-20 rounded-lg overflow-hidden">
                 <img src={require('../../assets/image/cource1.png')} className=" w-full" alt="" />
               </div>
@@ -139,7 +139,7 @@ const DoctorCources = () => {
            
               </div>
             </Link>
-            <Link to={'/my-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
+            <Link to={'/teacher-cource-details'} className=" bg-white p-5 items-center flex md:flex-row flex-col  rounded-lg gap-4" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}> 
               <div className=" w-20 h-20 rounded-lg overflow-hidden">
                 <img src={require('../../assets/image/cource1.png')} className=" w-full" alt="" />
               </div>

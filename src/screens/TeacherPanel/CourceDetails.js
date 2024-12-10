@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import Wrapper from '../Wrapper'
-import DoctorWrapper from '../DoctorWrapper'
+import DoctorWrapper from '../TeacherWrapper'
 
 const DoctorCourcesDetails = () => {
 const [tab,setTabs] = useState('details')

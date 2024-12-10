@@ -9,9 +9,10 @@ import CourcesDetails from "./screens/Cources/CourcesDetails";
 import StudentDashboard from "./screens/StudentPanel/dashboard/StudentDashboard";
 import MyCources from "./screens/StudentPanel/mycourses/MyCourses";
 import StudentCourceDetails from "./screens/StudentPanel/courceDetails/CourceDetails";
-import DoctorDashboard from "./screens/DoctorPanel/DoctorDashboard";
-import DoctorCources from "./screens/DoctorPanel/DoctorCources";
-import DoctorCourcesDetails from "./screens/DoctorPanel/CourceDetails";
+import DoctorDashboard from "./screens/TeacherPanel/DoctorDashboard";
+import DoctorCources from "./screens/TeacherPanel/DoctorCources";
+import DoctorCourcesDetails from "./screens/TeacherPanel/CourceDetails";
+import Attendance from "./screens/TeacherPanel/Attendance";
 function App() {
   return (
     <>
@@ -33,9 +34,10 @@ function App() {
 
 
         {/* doctor panel */}
-        <Route path="/doctor-dashboard" element={<DoctorDashboard />} />
-        <Route path="/doctor-cources" element={<DoctorCources />} />
-        <Route path="/doctor-cource-details" element={<DoctorCourcesDetails />} />
+        <Route path="/teacher-dashboard" element={<DoctorDashboard />} />
+        <Route path="/teacher-cources" element={<DoctorCources />} />
+        <Route path="/teacher-cource-details" element={<DoctorCourcesDetails />} />
+        <Route path="/attendance" element={<Attendance />} />
 
 
       </Routes>

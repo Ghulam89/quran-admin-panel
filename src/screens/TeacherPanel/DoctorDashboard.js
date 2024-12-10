@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Button from "../../components/Button";
 import AddDetails from "../studentDetails/AddDetails";
 import { Link } from "react-router-dom";
-import DoctorWrapper from "../DoctorWrapper";
+import DoctorWrapper from "../TeacherWrapper";
 const DoctorDashboard = () => {
   const [open,setOpen] = useState(false);
   return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TeacherSidebar from "../components/sidebar/TeacherSidebar";
 import TeacherNav from "../components/adminNav/TeacherNav";
-const DoctorWrapper = ({ children }) => {
+const TeacherWrapper = ({ children }) => {
   const [side, setSide] = useState("-left-64 md:left-0");
 
   console.log(side);
@@ -30,4 +30,4 @@ const DoctorWrapper = ({ children }) => {
     </>
   );
 };
-export default DoctorWrapper;
+export default TeacherWrapper;
