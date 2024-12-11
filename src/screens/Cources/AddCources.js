@@ -89,15 +89,15 @@ const AddCources = ({ isModalOpen, setIsModalOpen, closeModal, setUsers }) => {
 
                 <div className=" w-[100%]">
                   <label>Description</label>
-                  <textarea rows={6} className=" w-full bg-lightGray"></textarea>
+                  <textarea rows={6} className=" w-full bg-[#F6F6F6]"></textarea>
                 </div>
 
 
                 <div
-                  className="w-full border-dashed border-[#9E9E9E] bg-[#fafafa] border-2 rounded-lg p-4 cursor-pointer"
+                  className="w-full border-dashed border-[#9E9E9E] bg-[#F6F6F6] border-2 rounded-lg p-4 cursor-pointer"
                   
                 >
-                  <div className="bg-[#F6F6F6] mx-auto w-14 flex justify-center items-center h-14 rounded-2xl">
+                  <div className="bg-[#F6F6F6] mx-auto w-14 flex justify-center items-center h-20 rounded-2xl">
                     <MdOutlineFileUpload size={30} className=" text-primary" />
                   </div>
                   <p className="text-primary font-medium mt-3 text-center">

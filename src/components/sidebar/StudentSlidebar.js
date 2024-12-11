@@ -77,8 +77,13 @@ const StudentSidebar = ({ side, closeSidebar }) => {
             
           </ul>
         </div>
-
-        <Button
+         <div>
+          <div className=" flex gap-2 items-center pb-3">
+            <img src={require('../../assets/image/Phone.png')} alt="" />
+            <p  className=" m-0 text-gray-400">Contact Us</p>
+          </div>
+          <p className=" pb-4 font-semibold text-primary">(808) 998-34256</p>
+         <Button
           IconLeft={
             <img src={require("../../assets/image/logout.png")} alt="" />
           }
@@ -87,6 +92,9 @@ const StudentSidebar = ({ side, closeSidebar }) => {
           }
           label={"Logout"}
         />
+
+          </div> 
+       
       </div>
     </div>
   );

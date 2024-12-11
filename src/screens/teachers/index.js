@@ -139,84 +139,141 @@ const Teachers = () => {
 
                     </tr>
                   </thead>
-                  <tbody className="">
-                    
-                          <tr className="bg-white    border-b-8  border-white rounded-md ">
-                            
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white   text-sm font-normal px-6 py-3 whitespace-nowrap  text-center">
-                              <span className=" bg-white text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
-                                1
-                              </span>
-                            </td>
+                  <tbody>
+  <tr className="bg-white shadow-lg mt-6   rounded-lg">
+    <td className="align-middle bg-white text-sm font-normal px-6 py-3 whitespace-nowrap text-center">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline rounded-full">
+        1
+      </span>
+    </td>
+    <td className="text-sm bg-white font-normal text-center px-6 py-4 whitespace-nowrap">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline rounded-full">
+        ghulam mustafa
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none whitespace-nowrap rounded-full">
+        gm6681328@gmail.com
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none whitespace-nowrap rounded-full">
+        123456
+      </span>
+    </td>
+    <td className="align-middle bg-white font-normal px-6 py-3 whitespace-nowrap text-left">
+      <div className="flex flex-col">
+        <span className="bg-green-200 text-xs text-[#858585] px-2.5 leading-none whitespace-nowrap rounded-full">
+          Whatsapp no
+        </span>
+        <span className="bg-green-200 text-[#1C8E00] px-2.5 leading-none whitespace-nowrap rounded-full">
+          0320 7878778
+        </span>
+        <span className="bg-green-200 text-xs text-[#858585] px-2.5 leading-none whitespace-nowrap rounded-full">
+          Other
+        </span>
+        <span className="bg-green-200 text-black px-2.5 leading-none whitespace-nowrap rounded-full">
+          0320 7878778
+        </span>
+      </div>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black px-2.5 leading-none whitespace-nowrap rounded-full">
+        Kareem block, Lahore
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black px-2.5 leading-none whitespace-nowrap rounded-full">
+        MPhil Islamic Studies
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-secondary py-1 px-2.5 leading-none whitespace-nowrap rounded-full">
+        12.jpg
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <select className="text-[#23A118] bg-[#3FFF801F] px-3 p-2 rounded-md">
+        <option>Active</option>
+        <option>Inactive</option>
+      </select>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 whitespace-nowrap text-left">
+      <img
+        className="w-6 h-6"
+        src={require("../../assets/image/edit.png")}
+        alt=""
+      />
+    </td>
+  </tr>
+    <tr className="bg-white shadow-lg mt-6 rounded-lg">
+    <td className="align-middle bg-white text-sm font-normal px-6 py-3 whitespace-nowrap text-center">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline rounded-full">
+        1
+      </span>
+    </td>
+    <td className="text-sm bg-white font-normal text-center px-6 py-4 whitespace-nowrap">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline rounded-full">
+        ghulam mustafa
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none whitespace-nowrap rounded-full">
+        gm6681328@gmail.com
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black py-1 px-2.5 leading-none whitespace-nowrap rounded-full">
+        123456
+      </span>
+    </td>
+    <td className="align-middle bg-white font-normal px-6 py-3 whitespace-nowrap text-left">
+      <div className="flex flex-col">
+        <span className="bg-green-200 text-xs text-[#858585] px-2.5 leading-none whitespace-nowrap rounded-full">
+          Whatsapp no
+        </span>
+        <span className="bg-green-200 text-[#1C8E00] px-2.5 leading-none whitespace-nowrap rounded-full">
+          0320 7878778
+        </span>
+        <span className="bg-green-200 text-xs text-[#858585] px-2.5 leading-none whitespace-nowrap rounded-full">
+          Other
+        </span>
+        <span className="bg-green-200 text-black px-2.5 leading-none whitespace-nowrap rounded-full">
+          0320 7878778
+        </span>
+      </div>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black px-2.5 leading-none whitespace-nowrap rounded-full">
+        Kareem block, Lahore
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-black px-2.5 leading-none whitespace-nowrap rounded-full">
+        MPhil Islamic Studies
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <span className="bg-green-200 text-base text-secondary py-1 px-2.5 leading-none whitespace-nowrap rounded-full">
+        12.jpg
+      </span>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+      <select className="text-[#23A118] bg-[#3FFF801F] px-3 p-2 rounded-md">
+        <option>Active</option>
+        <option>Inactive</option>
+      </select>
+    </td>
+    <td className="align-middle bg-white text-center text-sm font-normal px-6 whitespace-nowrap text-left">
+      <img
+        className="w-6 h-6"
+        src={require("../../assets/image/edit.png")}
+        alt=""
+      />
+    </td>
+  </tr>
+</tbody>
 
-                            <td  style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="text-sm bg-white  font-normal text-center px-6 py-4 whitespace-nowrap">
-                              <span className=" text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
-                                ghulam mustafa 
-                              </span>
-                            </td>
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle  bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                              gm6681328@gmail.com
-                              </span>
-                            </td>
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                123456
-                              </span>
-                            </td>
-
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white    font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <div className=" flex flex-col">
-                              <span className=" text-xs  text-[#858585]  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                Whatsapp no
-                              </span>
-                              <span className="   text-[#1C8E00]  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                               0320 7878778
-                              </span>
-                              <span className=" text-xs  text-[#858585]  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                Other
-                              </span>
-                              <span className="    text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                               0320 7878778
-                              </span>
-                              </div>
-                            </td>
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                Kareem block,Lahore
-                              </span>
-                            </td>   
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                MPhill lslamic Studies
-                              </span>
-                            </td>
-
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <span className=" text-base  text-secondary  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                               12.jpg
-                              </span>
-                            </td>
-
-                            <td style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <select className=" text-[#23A118]  bg-[#3FFF801F] px-3 py-2 rounded-md">
-                                <option>Active</option>
-                                <option>Inactive</option>
-
-                              </select>
-                            </td>
-
-
-                            <td  style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                              <span className=" text-sm text-white  leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                <img src={require('../../assets/image/edit.png')} alt="" />
-                              </span>
-                            </td>
-                            
-                          </tr>
-                          
-                       
-                  </tbody>
                 </table>
               </div>
             </div>

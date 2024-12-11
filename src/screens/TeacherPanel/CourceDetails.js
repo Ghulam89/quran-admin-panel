@@ -53,7 +53,7 @@ const [tab,setTabs] = useState('details')
           <div className=" w-full">
             <div className=" bg-white  text-black flex justify-between p-5 rounded-lg" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}>
               <div>
-                <h2 className=" text-[#1C1D1D] text-[20px] font-semibold">Total Cources</h2>
+                <h2 className=" text-[#1C1D1D] text-[20px] font-semibold">Your Cources</h2>
                 <div className=" pt-2 flex items-center gap-3">
                   <p className="text-lg pt-3 text-black">50</p>
                 </div>
@@ -72,10 +72,7 @@ const [tab,setTabs] = useState('details')
     <div  className=''>
         <p className=' text-lg m-0'>Cource Details</p>
     </div>
-    <div className=' flex items-center gap-3'>
-        <img src={require('../../assets/image/edit.png')} alt='' />
-        <img src={require('../../assets/image/del.png')} alt='' />
-    </div>
+   
 </div>
 <div className=' p-3 rounded-lg' style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}>
     <span className=' m-0 text-gray-400 text-sm'>Cource Name</span>
@@ -131,7 +128,7 @@ const [tab,setTabs] = useState('details')
           <div className=" w-full">
             <div className=" bg-white  text-black flex justify-between p-5 rounded-lg" style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }}>
               <div>
-                <h2 className=" text-[#1C1D1D] text-[20px] font-semibold">Total Cources</h2>
+                <h2 className=" text-[#1C1D1D] text-[20px] font-semibold">Your Cources</h2>
                 <div className=" pt-2 flex items-center gap-3">
                   <p className="text-lg pt-3 text-black">50</p>
                 </div>
@@ -156,14 +153,7 @@ const [tab,setTabs] = useState('details')
                   <table className="min-w-full mb-0">
                     <thead className=" ">
                       <tr className=" rounded-lg whitespace-nowrap ">
-                        
-                        <th
-                          scope="col"
-                          className=" text-sm   text-primary  font-bold px-6 py-4"
-                        >
-                          ID
-                        </th>
-  
+                      
                         <th
                           scope="col"
                           className=" text-sm text-primary   font-bold px-6 py-4"
@@ -182,21 +172,21 @@ const [tab,setTabs] = useState('details')
                           scope="col"
                           className="text-sm text-primary    font-bold px-6 py-4"
                         >
-                           Phone no
+                           Age
                         </th>
   
                         <th
                           scope="col"
                           className="text-sm text-primary    font-bold px-6 py-4"
                         >
-                          Country
+                          Address
                         </th>
   
                         <th
                           scope="col"
                           className="text-sm  text-primary    font-bold px-6 py-4"
                         >
-                          Teacher
+                          Country
                         </th>
   
                        
@@ -206,18 +196,7 @@ const [tab,setTabs] = useState('details')
                         >
                           Timing
                         </th>
-                        <th
-                          scope="col"
-                          className="text-sm  text-primary    font-bold px-6 py-4"
-                        >
-                          Payment
-                        </th>
-                        <th
-                          scope="col"
-                          className="text-sm  text-primary    font-bold px-6 py-4"
-                        >
-                          Status
-                        </th>
+                       
   
                        
   
@@ -227,12 +206,7 @@ const [tab,setTabs] = useState('details')
                     <tbody className="">
                       
                             <tr style={{ boxShadow: '0px 0px 63.44px 0px #00000012' }} className="bg-white    border-b-8  border-white rounded-md ">
-                              
-                              <td  className="align-middle bg-white   text-sm font-normal px-6 py-3 whitespace-nowrap  text-center">
-                                <span className=" bg-white text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
-                                  1
-                                </span>
-                              </td>
+                            
   
                               <td   className="text-sm bg-white  font-normal text-center px-6 py-4 whitespace-nowrap">
                                 <span className=" text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
@@ -246,7 +220,12 @@ const [tab,setTabs] = useState('details')
                               </td>
                               <td  className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
                                 <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                  123456
+                                  28
+                                </span>
+                              </td>
+                              <td  className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
+                                <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
+                                  Kareem Block, Lahore
                                 </span>
                               </td>
 
@@ -256,14 +235,7 @@ const [tab,setTabs] = useState('details')
                                 </span>
                               </td>
   
-                              <td  className="align-middle bg-white    font-normal px-6 py-4 whitespace-nowrap text-left">
-                                <div className=" flex flex-col">
-                                <select className=' border w-56 rounded-sm'>
-                                    <option>Select Teacher</option>
-                                </select>
-                                
-                                </div>
-                              </td>
+                             
                               
                               <td  className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
                                 <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
@@ -271,19 +243,6 @@ const [tab,setTabs] = useState('details')
                                 </span>
                               </td>
   
-                              <td  className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                                <span className=" text-base  text-secondary  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
-                                 12.jpg
-                                </span>
-                              </td>
-  
-                              <td  className="align-middle bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
-                                <select className=" text-[#23A118]  bg-[#3FFF801F] px-3 py-2 rounded-md">
-                                  <option>Active</option>
-                                  <option>Inactive</option>
-  
-                                </select>
-                              </td>
   
   
                               

@@ -13,6 +13,7 @@ import DoctorDashboard from "./screens/TeacherPanel/DoctorDashboard";
 import DoctorCources from "./screens/TeacherPanel/DoctorCources";
 import DoctorCourcesDetails from "./screens/TeacherPanel/CourceDetails";
 import Attendance from "./screens/TeacherPanel/Attendance";
+import StudentDetails from "./screens/StudentDetails";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/cources" element={<Cources />} />
         <Route path="/cources-details" element={<CourcesDetails />} />
+        <Route path="/student-details" element={<StudentDetails />} />
         <Route path="/teachers" element={<Teachers />} />
 
         {/* </Route> */}

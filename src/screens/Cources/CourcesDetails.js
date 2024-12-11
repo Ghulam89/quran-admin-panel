@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Wrapper from '../Wrapper'
+import { Link } from 'react-router-dom'
 
 const CourcesDetails = () => {
 const [tab,setTabs] = useState('details')
@@ -142,9 +143,9 @@ const [tab,setTabs] = useState('details')
                               </td>
   
                               <td   className="text-sm bg-white  font-normal text-center px-6 py-4 whitespace-nowrap">
-                                <span className=" text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                <Link to={'/student-details'} className=" text-base text-secondary  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
                                   ghulam mustafa 
-                                </span>
+                                </Link>
                               </td>
                               <td className="align-middle  bg-white  text-center text-sm font-normal px-6 py-4 whitespace-nowrap text-left">
                                 <span className=" text-base text-black  py-1 px-2.5 leading-none  whitespace-nowrap    bg-green-200  rounded-full">
